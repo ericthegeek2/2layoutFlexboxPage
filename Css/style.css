@@ -1,0 +1,154 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    border-bottom: 8px solid white;
+    box-shadow: 0px 0px 3px 0px;
+}
+ul,li{
+    list-style-type: none;
+}
+
+.menu, ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+.menu-2, ul{
+    display: flex;
+    align-items: center;
+
+}
+.main-section{
+    width: 100%;
+    height: calc(100vh - 30px);
+    background-color: white;
+    margin: 5px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-container{
+    width: 704px;
+    height: 530px;
+    background-color: #d8e5f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+}
+.second-section{
+    width: 441px;
+    height: 530px;
+    background-color: #d8e5f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.process{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;  
+}
+.align{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#account{
+    color: blue;
+}
+.sign-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+#register{
+    background-color: white;
+    border: 2px solid white;
+    height: 30px;
+}
+#login{
+    width: 80px;
+    background-color: rgb(50,90,200);
+    border: 2px solid rgb(50,90,200);
+    border-radius: 10px;
+    color: white;
+}
+#cancel{
+    background-color: white;
+    border: 2px solid white;
+    height: 30px;
+    width: 130px;
+}
+#shipping{
+    width: 90px;
+    background-color: rgb(50,90,200);
+    border: 2px solid rgb(50,90,200);
+    border-radius: 10px;
+    color: white;
+}
+.inner-section{
+    width: 350px;
+    height: 100%;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.discount p{
+    font-weight: lighter;
+    color: grey;
+}
+.apply form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#apply{
+    width: 80px;
+    background-color: white;
+    color: rgb(50,90,200);
+    border: 2px solid rgb(50,90,200);
+    border-radius: 5px;
+
+}
+.sub-total, .Tax, .Shipping, .Total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#free{
+    color: green;
+    font-size: large;
+}
+.input{
+    color: black;
+    background-color: #bdc8d8;
+    border: 2px solid #bdc8d8;
+    border-radius: 5px;
+}

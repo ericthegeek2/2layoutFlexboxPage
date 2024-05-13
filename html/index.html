@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+
+         <!-- navbar container-->
+
+        <div class="nav-bar">
+
+            <div class="logo">
+                <p><img src="" alt="company's logo" style="width: 100px;"></p>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><p>Home</p></li>
+                    <li><p>Shop</p></li>
+                    <li><p>Contact</p></li>
+                    <li><p>Help</p></li>
+                </ul>
+            </div>
+
+            <div class="menu-2">
+                <ul>
+                    <li><p>Account</p></li>
+                    <li><p><img src="./images/shopping-bag.png" alt="shopping bag" style="width: 18px;">3 Items</p></li>
+                    <li><p><i class="fa-solid fa-user"></i></p></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <!--main section-->
+
+        <div class="main-section">
+            <div class="first-container">
+               <div class="align">
+                  <div class="process">
+                       <p id="account">Account --
+                       <i class="fa-solid fa-circle-check"></i></p>
+                       <p>-- Shipping --
+                       <i class="fa-solid fa-circle-check"></i></p>
+                       <p>-- Payment</p>
+                  </div>
+
+
+              
+                  <div class="details">
+                     <h3>Account details</h3>
+                  </div>
+
+                        <!--form-->
+               
+                   <form action="#" method="post">
+                     <p><label for="Email">Email address</label></p>
+                     <p><input type="email" name="Email" id="Email" placeholder="Email@myemail.com" style="width: 90%; height: 20px;" class="input"></p><br>
+                     <p><label for="Password">Password</label></p>
+                     <p><input type="password" name="Password" id="Password" placeholder=".........." style="width: 90%; height: 20px;" class="input"></p><br>
+                   </form>
+
+                   <!--login and register account-->
+
+                   <div class="sign-up">
+                        <button id="register">Register for account</button>
+                        <button id="login">Login</button>
+                   </div>
+
+                   <div class="order-shipping sign-up">
+                    <button id="cancel">cancel order</button>
+                    <button id="shipping">shipping details</button>
+               </div>
+
+               </div>
+             
+             
+
+            </div>
+
+            <div class="second-section">
+                <div class="inner-section">
+                    <div class="item">
+                        <h3>Order Summary</h3>
+                        <img src="./images/audio-1840073_640.jpg" alt="headphones" style="width: 100%; height: 100px;">
+                    </div>
+
+                    <div class="description">
+                        <div class="quantity">
+                            <h4>Sony wireless headphones</h4>
+                            <p><i class="fa-regular fa-square-minus"></i>  1 <i class="fa-regular fa-square-plus"></i> </p>
+                        </div>
+                      <h3>$320.45</h3>
+                    </div>
+
+                    <div class="discount">
+                        <p>Gift card / Discount code</p>
+                    </div>
+                    
+                    <div class="apply">
+                        <form action="#" method="post">
+                            <input type="text" class="input">
+                            <button type="submit" id="apply">Apply</button>
+                        </form>
+                    </div>
+
+                    <div class="sub-total">
+                        <p>Sub total</p>
+                        <p>$316.55</p>
+                    </div>
+                    <div class="Tax">
+                        <p>Tax</p>
+                        <p>$3.45</p>
+                    </div>
+                    <div class="Shipping">
+                        <p>Shipping</p>
+                        <p id="free">Free</p>
+                    </div>
+                    <div class="Total">
+                        <h4>total</h4>
+                        <p>$320.45</p>
+                    </div>
+                     
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
